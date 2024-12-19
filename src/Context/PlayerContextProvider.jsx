@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import playerContext from "./PlayerContext";
+import playerContext from "./playerContext";
 import { songsData } from "../assets/assets";
 const PlayerContextProvider =({children})=>{
-
     const audioRef = useRef();
     const seekBg = useRef();
     const seekBar = useRef();
